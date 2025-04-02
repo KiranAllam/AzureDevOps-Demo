@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-    vmImage: 'ubuntu-latest'
+    vmImage: 'ubuntu-latest' #pool image
 
 variables:
   IMAGE_REGISTRY_CONNECTION: 'ACR Demo'
